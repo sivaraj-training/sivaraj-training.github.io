@@ -59,7 +59,7 @@ const Metadata = () => {
     // Add meta description
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
-    metaDescription.content = 'Abba Developers provides world-class logistics infrastructure at Vizhinjam Port with its Inland Container Depot operations. Explore our services.';
+    metaDescription.content = 'Abba Developers provides world-class logistics infrastructure at Vizhinjam deep-sea Port with its Inland Container Depot operations. Explore our services.';
     document.head.appendChild(metaDescription);
 
     // Add meta keywords
@@ -71,10 +71,10 @@ const Metadata = () => {
     // Add Open Graph tags
     const ogTags = [{
       property: 'og:title',
-      content: 'Abba Developers - Powering Logistics at Vizhinjam Port'
+      content: 'Abba Developers - Powering Logistics at Vizhinjam deep-sea Port'
     }, {
       property: 'og:description',
-      content: 'World-class logistics infrastructure at Vizhinjam Port with Inland Container Depot operations by Abba Developers.'
+      content: 'World-class logistics infrastructure at Vizhinjam deep-sea Port with Inland Container Depot operations by Abba Developers.'
     }, {
       property: 'og:type',
       content: 'website'
@@ -572,7 +572,7 @@ const Footer = () => {
             columnNumber: 13
           }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("p", {
             className: "mb-6 text-neutral-light/90",
-            children: "Committed to building world-class logistics infrastructure to support India's growing international trade. Our Inland Container Depot at Vizhinjam Port is designed to streamline cargo operations and enhance the port's capabilities."
+            children: "Committed to building world-class logistics infrastructure to support India's growing international trade. Our Inland Container Depot at Vizhinjam deep-sea Port is designed to streamline cargo operations and enhance the port's capabilities."
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 36,
@@ -1323,24 +1323,24 @@ _c = LeaderCard;
 const AboutSection = () => {
   const leaders = [{
     name: "Vijayan Thomas",
-    title: "Managing Director",
-    bio: "With over 30 years of experience in logistics and port operations, Vijayan leads Abba Developers with a vision for innovative infrastructure.",
-    imgSrc: "https://placehold.co/400"
-  }, {
-    name: "Vinod Rana",
-    title: "Director",
-    bio: "A seasoned logistics and supply chain professional with 25+ years of global experience across port operations, offshore logistics, infrastructure projects, and marine services.",
-    imgSrc: "https://placehold.co/400"
+    title: "Founder & CEO",
+    bio: "With over 30 years of experience in infrastructure development and port operations, Vijayan leads Abba Developers with a vision to enable global trade through a state-of-the-art inland logistics hub. He is the former Chairman of the Kerala State Tourism Corporation, Government of Kerala, and is also the Chairman of Jai Hind TV.",
+    imgSrc: "./Vijayan.png"
   }, {
     name: "H C Augustine",
-    title: "Director",
-    bio: "A seasoned seafarer with extensive global experience in global maritime operations and offshore energy projects, Augustine brings deep expertise in handling complex logistics in challenging environments.",
-    imgSrc: "https://placehold.co/400"
-  }, {
+    title: "Chief Operating Officer",
+    bio: "A professional with extensive experience in global maritime operations and international business, he has deep expertise in handling complex logistics in challenging environments. He has consistently driven operational excellence and growth across diverse markets",
+    imgSrc: "./Augustine.png"
+  },{
+    name: "Vinod Rana",
+    title: "Head - Business Development",
+    bio: "A seasoned logistics and supply chain professional with 25+ years of global experience across port operations, offshore logistics, infrastructure projects, and marine services. He is a recipient of multiple commendations from clients including the US Marine Forces, US Naval Contracting, Royal Air Force (UK), Canadian MoD, and other NATO forces for exceptional service quality and cost efficiency.",
+    imgSrc: "./Vinod.png"
+  },{
     name: "Sivaraj Ambat",
-    title: "Head-IT & HR",
-    bio: "A technology expert who leads the technical operations and HR, ensuring top-tier infrastructure and a capable workforce.",
-    imgSrc: "https://placehold.co/400"
+    title: "Head - IT & HR",
+    bio: "A technology expert with diverse industry experience and leads the technical operations and HR, ensuring top-tier infrastructure and a capable workforce. He is recognized by US-based Training Magazine as a Top 20 Emerging Leader and is an accomplished innovator & author",
+    imgSrc: "./Sivaraj.png"
   }];
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("section", {
     id: "about",
@@ -1381,7 +1381,7 @@ const AboutSection = () => {
             columnNumber: 13
           }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("p", {
             className: "text-lg mb-6",
-            children: "With the launch of our Inland Container Depot at Vizhinjam Port, we're taking a significant step in enhancing the port's capabilities and positioning it as a premier cargo handling destination on India's southwestern coast."
+            children: "With the launch of our Inland Container Depot at Vizhinjam deep-sea Port, we're taking a significant step in enhancing the port's capabilities and positioning it as a premier cargo handling destination on India's southwestern coast."
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 80,
@@ -1443,12 +1443,12 @@ const AboutSection = () => {
                   columnNumber: 19
                 }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("span", {
                   children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("strong", {
-                    children: "Reliability:"
+                    children: "Connected:"
                   }, void 0, false, {
                     fileName: _jsxFileName,
                     lineNumber: 106,
                     columnNumber: 25
-                  }, undefined), " We deliver on our promises, ensuring consistent and dependable service to all our partners."]
+                  }, undefined), " Insight-driven, transparent, technology-enabled operations."]
                 }, void 0, true, {
                   fileName: _jsxFileName,
                   lineNumber: 106,
@@ -1482,12 +1482,12 @@ const AboutSection = () => {
                   columnNumber: 19
                 }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("span", {
                   children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("strong", {
-                    children: "Innovation:"
+                    children: "Committed:"
                   }, void 0, false, {
                     fileName: _jsxFileName,
                     lineNumber: 118,
                     columnNumber: 25
-                  }, undefined), " We continuously seek new technologies and methodologies to enhance efficiency and sustainability."]
+                  }, undefined), " Long-term relationships, uncompromising quality and service."]
                 }, void 0, true, {
                   fileName: _jsxFileName,
                   lineNumber: 118,
@@ -1521,12 +1521,12 @@ const AboutSection = () => {
                   columnNumber: 19
                 }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("span", {
                   children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("strong", {
-                    children: "Customer Focus:"
+                    children: "Innovative:"
                   }, void 0, false, {
                     fileName: _jsxFileName,
                     lineNumber: 130,
                     columnNumber: 25
-                  }, undefined), " Our clients' success is our priority, driving us to provide tailored, value-added solutions."]
+                  }, undefined), " Proactive process improvements and idea-sharing."]
                 }, void 0, true, {
                   fileName: _jsxFileName,
                   lineNumber: 130,
@@ -1995,7 +1995,7 @@ const ContactSection = () => {
                     lineNumber: 194,
                     columnNumber: 21
                   }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("p", {
-                    children: "Vizhinjam Port Area, Trivandrum, Kerala, India"
+                    children: "Abba Developers Pvt Ltd., 1st Floor, Carmel Towers, Cotton Hill Vazhuthacaud, Thiruvananthapuram-695014, Kerala, India"
                   }, void 0, false, {
                     fileName: _jsxFileName,
                     lineNumber: 195,
@@ -2061,9 +2061,9 @@ const ContactSection = () => {
                     lineNumber: 212,
                     columnNumber: 21
                   }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("a", {
-                    href: "tel:+919999999999",
+                    href: "tel:+914713539806",
                     className: "hover:text-accent transition-colors",
-                    children: "+91-99999 99999"
+                    children: "+914713539806"
                   }, void 0, false, {
                     fileName: _jsxFileName,
                     lineNumber: 213,
@@ -2404,7 +2404,7 @@ const HeroSection = () => {
           transition: {
             duration: 0.7
           },
-          children: "Powering Logistics at Vizhinjam Port"
+          children: "Powering Logistics at Vizhinjam deep-sea Port"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 19,
@@ -3033,8 +3033,8 @@ const VizhinjamSection = () => {
     children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)("div", {
       className: "container-custom",
       children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(_components_SectionTitle__WEBPACK_IMPORTED_MODULE_0__["default"], {
-        title: "Strategic Advantage of Vizhinjam Port",
-        subtitle: "Discover why Vizhinjam Port is set to become a major player in international shipping",
+        title: "Strategic Advantage of Vizhinjam deep-sea Port",
+        subtitle: "Discover why Vizhinjam deep-sea Port is set to become a major player in international shipping",
         light: true
       }, void 0, false, {
         fileName: _jsxFileName,
